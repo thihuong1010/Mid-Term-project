@@ -155,7 +155,7 @@ int main() {
 //insert city 2 
     citydb.insertCity(city2);
 //search city by name 
+    citydb.searchCityByName("NewYork"); 
     citydb.searchCityByName("London"); 
-    citydb.searchCityByName("Berlin"); 
     return 0;
 }
